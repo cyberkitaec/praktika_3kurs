@@ -35,14 +35,3 @@ def bin_search_letters(lst, name):
 
     return None
 
-
-start = time.time()
-# my_list = [1, 3, 0, 1, 2 ,5, 89, 100, 318]
-# my_list.sort()
-my_list_names = ["Иванов", "Мытницкий", "Гнатюк", "Денюк", "Телешко"]
-my_list_names.sort()
-
-# print(binary_search(my_list, 0))
-print(my_list_names)
-print(bin_search_letters(my_list_names, "Денюк"))
-print("--- %s seconds ---" % (time.time() - start))
